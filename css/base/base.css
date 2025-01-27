@@ -1,0 +1,67 @@
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+input {
+    border: 2px solid #dddddd;
+    border-radius: 4px;
+    color: #252525;
+}
+
+input:focus {
+    outline: none;
+}
+
+.btn {
+    height: 30.2px;
+    width: 17%;
+    background-color: #ffffff;
+    border: 2px solid #8686ff;
+    border-radius: 4px;
+    color: #4f4fff;
+    cursor: pointer;
+    transition: all .2s ease-in;
+}
+
+.btn:hover {
+    background-color: #8686ff;
+    color: #ffffff;
+}
+
+.btn--edit {
+    width: 100%;
+}
+
+.btn--remove {
+    width: auto;
+    border: 2px solid #ff0000;
+    color: #b10000;
+}
+
+.btn--remove:hover {
+    background-color: #ff0000;
+}
+
+.btn--save {
+    width: 100%;
+}
+
+li {
+    list-style-type: none;
+    display: inline-block;
+    max-width: 240px;
+    word-wrap: break-word;
+    transition: color 0.2s ease, text-decoration 0.2s ease;
+}
+
+li::first-letter {
+    text-transform: capitalize;
+}
+
+input[type=checkbox] {
+    accent-color: green;
+}
+
+.input--edit {
+    width: 100%;
+}
