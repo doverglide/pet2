@@ -38,6 +38,7 @@ toDoForm.addEventListener('submit', function(event) {
     let taskText = toDoInput.value.trim();
 
     if (taskText === '') {
+        alert('Enter the task text');
         return;
     }
     
