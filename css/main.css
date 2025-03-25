@@ -3,5 +3,5 @@
 @import url(./base/base.css);
 
 /* Block */
-@import url(./block/container.css);
-@import url(./block/complete.css);
+@import url(../css/blocks/container.css);
+@import url(../css/blocks/complete.css);

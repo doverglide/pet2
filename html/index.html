@@ -13,15 +13,13 @@
     <section class="container">
         <h1 class="container__title">Todo List</h1>
         <form action="/" class="container__form" id="form">
-            <input type="text" class="container__input" placeholder="Write a task" id="input" required>
-            <button class="btn" type="submit" id="btn">Add</button>
+            <label for="input" class="container__label">
+                <input type="text" class="container__input" placeholder="Write a task" id="input" required>
+                <button class="btn" type="submit" id="btn">Add</button>
+            </label>
             <ul class="container__list" id="list">
             </ul>
         </form>
-    </section>
-    <section class="complete">
-        <h2 class="complete__title">Completed</h2>
-        <ul class="complete__list"></ul>
     </section>
 <script src="../script/main.js"></script>
 </body>
