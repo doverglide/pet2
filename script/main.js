@@ -35,7 +35,11 @@ document.addEventListener('DOMContentLoaded', function() {
 toDoForm.addEventListener('submit', function(event) {
     event.preventDefault();
     
-    taskText = toDoInput.value; 
+    let taskText = toDoInput.value.trim();
+
+    if (taskText === '') {
+        return;
+    }
     
     createTask(taskText);
 });
